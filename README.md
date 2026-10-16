@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/icon.png" width="160" alt="Calendario app icon">
+</p>
+
 # Calendario
 
 A native macOS calendar that puts every account on your Mac (iCloud, Google, Exchange,
