@@ -1,0 +1,245 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0000000000000000000101 /* CalendarDomain in Frameworks */ = {isa = PBXBuildFile; productRef = CA0000000000000000000201 /* CalendarDomain */; };
+		CA0000000000000000000102 /* EventKitProvider in Frameworks */ = {isa = PBXBuildFile; productRef = CA0000000000000000000202 /* EventKitProvider */; };
+		CA0000000000000000000103 /* GoogleCalendarAPI in Frameworks */ = {isa = PBXBuildFile; productRef = CA0000000000000000000203 /* GoogleCalendarAPI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA0000000000000000000301 /* Calendario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0000000000000000000302 /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		CA0000000000000000000303 /* App.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = App.xcconfig; sourceTree = "<group>"; };
+		CA0000000000000000000304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA0000000000000000000305 /* Calendario.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Calendario.entitlements; sourceTree = "<group>"; };
+		CA0000000000000000000306 /* Local.xcconfig.example */ = {isa = PBXFileReference; lastKnownFileType = text; path = Local.xcconfig.example; sourceTree = "<group>"; };
+		CA0000000000000000000307 /* CalendarKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CalendarKit; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CA0000000000000000000401 /* Calendario */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Calendario;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA0000000000000000000501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0000000000000000000101 /* CalendarDomain in Frameworks */,
+				CA0000000000000000000102 /* EventKitProvider in Frameworks */,
+				CA0000000000000000000103 /* GoogleCalendarAPI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA0000000000000000000601 = {
+			isa = PBXGroup;
+			children = (
+				CA0000000000000000000401 /* Calendario */,
+				CA0000000000000000000604 /* Packages */,
+				CA0000000000000000000602 /* Config */,
+				CA0000000000000000000603 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA0000000000000000000602 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CA0000000000000000000302 /* Project.xcconfig */,
+				CA0000000000000000000303 /* App.xcconfig */,
+				CA0000000000000000000306 /* Local.xcconfig.example */,
+				CA0000000000000000000304 /* Info.plist */,
+				CA0000000000000000000305 /* Calendario.entitlements */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		CA0000000000000000000603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA0000000000000000000301 /* Calendario.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA0000000000000000000604 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				CA0000000000000000000307 /* CalendarKit */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA0000000000000000000701 /* Calendario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0000000000000000000902 /* Build configuration list for PBXNativeTarget "Calendario" */;
+			buildPhases = (
+				CA0000000000000000000801 /* Sources */,
+				CA0000000000000000000501 /* Frameworks */,
+				CA0000000000000000000802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CA0000000000000000000401 /* Calendario */,
+			);
+			name = Calendario;
+			packageProductDependencies = (
+				CA0000000000000000000201 /* CalendarDomain */,
+				CA0000000000000000000202 /* EventKitProvider */,
+				CA0000000000000000000203 /* GoogleCalendarAPI */,
+			);
+			productName = Calendario;
+			productReference = CA0000000000000000000301 /* Calendario.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					CA0000000000000000000701 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = CA0000000000000000000901 /* Build configuration list for PBXProject "Calendario" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA0000000000000000000601;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CA0000000000000000000B01 /* XCLocalSwiftPackageReference "Packages/CalendarKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CA0000000000000000000603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA0000000000000000000701 /* Calendario */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA0000000000000000000802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA0000000000000000000801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CA0000000000000000000A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA0000000000000000000302 /* Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		CA0000000000000000000A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA0000000000000000000302 /* Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		CA0000000000000000000A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA0000000000000000000303 /* App.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		CA0000000000000000000A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA0000000000000000000303 /* App.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA0000000000000000000901 /* Build configuration list for PBXProject "Calendario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0000000000000000000A01 /* Debug */,
+				CA0000000000000000000A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0000000000000000000902 /* Build configuration list for PBXNativeTarget "Calendario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0000000000000000000A03 /* Debug */,
+				CA0000000000000000000A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		CA0000000000000000000B01 /* XCLocalSwiftPackageReference "Packages/CalendarKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/CalendarKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CA0000000000000000000201 /* CalendarDomain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CalendarDomain;
+		};
+		CA0000000000000000000202 /* EventKitProvider */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EventKitProvider;
+		};
+		CA0000000000000000000203 /* GoogleCalendarAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GoogleCalendarAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CA0000000000000000000001 /* Project object */;
+}

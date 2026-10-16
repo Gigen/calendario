@@ -1,0 +1,14 @@
+// Copy to Config/Local.xcconfig (git-ignored) and fill in. See SETUP.md.
+
+// Your Team ID: Xcode > Settings > Accounts > (your Apple ID) > Personal Team.
+// A free Apple ID is enough. Or run:
+//   defaults read com.apple.dt.Xcode IDEProvisioningTeamByIdentifier | grep teamID
+CODE_SIGN_IDENTITY = Apple Development
+DEVELOPMENT_TEAM = YOURTEAMID
+
+// Must be unique across Apple developer teams.
+PRODUCT_BUNDLE_IDENTIFIER = com.yourname.calendario
+
+// Google OAuth client ID (type "iOS") for Google Meet and invitees. Leave empty to
+// run without Google features.
+GOOGLE_CLIENT_ID =

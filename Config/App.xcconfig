@@ -1,0 +1,35 @@
+// Build settings for the Calendario app target.
+
+PRODUCT_NAME = Calendario
+// Change this (in Config/Local.xcconfig) to an ID of your own, e.g. com.yourname.calendario.
+// App IDs are unique across all Apple developer teams. install.sh sets it for you.
+PRODUCT_BUNDLE_IDENTIFIER = com.example.calendario
+MARKETING_VERSION = 0.1.0
+CURRENT_PROJECT_VERSION = 1
+
+INFOPLIST_FILE = Config/Info.plist
+GENERATE_INFOPLIST_FILE = YES
+INFOPLIST_KEY_CFBundleDisplayName = Calendario
+INFOPLIST_KEY_LSApplicationCategoryType = public.app-category.productivity
+CODE_SIGN_ENTITLEMENTS = Config/Calendario.entitlements
+ENABLE_HARDENED_RUNTIME = YES
+
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor
+COMBINE_HIDPI_IMAGES = YES
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/../Frameworks
+
+// UI code is main-actor isolated by default; the domain/provider package is not.
+SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor
+SWIFT_APPROACHABLE_CONCURRENCY = YES
+
+// Default: "Sign to Run Locally" (ad-hoc). Config/Local.xcconfig overrides this with
+// your Personal Team so macOS keeps Calendar/Reminders/Keychain permissions across rebuilds.
+// Set in Config/Local.xcconfig; empty disables the Google features.
+GOOGLE_CLIENT_ID =
+
+CODE_SIGN_STYLE = Automatic
+CODE_SIGN_IDENTITY = -
+DEVELOPMENT_TEAM =
+
+#include? "Local.xcconfig"

@@ -1,0 +1,17 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+
+# SwiftPM
+.build/
+.swiftpm/
+Packages/*/.build/
+Packages/*/.swiftpm/
+
+# Local, machine-specific settings (team ID, Google client ID). Never commit.
+Config/Local.xcconfig
+
+.DS_Store
